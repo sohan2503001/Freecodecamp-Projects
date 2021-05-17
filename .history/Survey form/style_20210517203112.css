@@ -23,7 +23,7 @@ p{
     display: block;
     text-align: center;
     background-color: rgba(48, 48, 109, 0.8);
-    width: 60%;
+    width: 50%;
     margin: auto;
     padding: 2rem 0rem;
 }
@@ -50,7 +50,7 @@ textarea{
     padding: 12px 20px;
     box-sizing: border-box;
     border-radius: 4px;
-    margin: 8px 0;
+    margin: 8px;0
 }
 
 input[type=submit] {

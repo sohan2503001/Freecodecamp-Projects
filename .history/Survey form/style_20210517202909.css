@@ -7,12 +7,13 @@ body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
-    color: white;
+    color: var(--color-white);
 }
 
 h1,p{
     text-align: center;
     color: white;
+    font-family: ;
 }
 
 p{
@@ -23,7 +24,7 @@ p{
     display: block;
     text-align: center;
     background-color: rgba(48, 48, 109, 0.8);
-    width: 60%;
+    width: 50%;
     margin: auto;
     padding: 2rem 0rem;
 }
@@ -48,9 +49,7 @@ input[type=text],[type=email],[type=number], select{
 textarea{
     width: 100%;
     padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin: 8px 0;
+    box-sizing: ;
 }
 
 input[type=submit] {
