@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h2>freeCodeCamp Survey Form</h2>
+        <h4>Thank you for taking the time to help us improve the platform</h4>
+        <form action="">
+            <label for="name">Name</label><br>
+            <input type="text" placeholder="Enter your name" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="Enter your Email" required><br>
+
+            <label for="age">Age(Optional)</label><br>
+            <input type="number" placeholder="Age"><br>
+
+            <label for="">Which option best describes your current role?</label><br>
+            <select name="Current role">
+                <option value="">Student</option>
+                <option value="">Full Time Job</option>
+                <option value="">Full Time Learner</option>
+                <option value="">Prefer not to say</option>
+                <option value="">Other</option>
+            </select><br>
+
+            <label for="">Would you recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" id="definitely" name="gender" value="definitely" checked><label for="definitely">Definitely</label><br>
+            <input type="radio" id="maybe" name="gender" value="maybe"><label for="Maybe">Maybe</label><br>
+            <input type="radio" id="not sure" name="gender" value="not sure"><label for="not sure">Not sure</label><br>
+
+            <label for="">What is your favorite feature of freeCodeCamp?</label><br>
+            <select>
+                <option value="">Challenges</option>
+                <option value="">Projects</option>
+                <option value="">Community</option>
+                <option value="">Open Source</option>
+            </select><br>
+
+            <label for="">What would you like to see improved?<span>(Check all that apply)</span></label>
+            
+
+        </form>
+    </div>
+</body>
+
+</html>
