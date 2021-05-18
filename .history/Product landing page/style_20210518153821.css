@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(228, 226, 224);
+}
+
+.header-1{
+    display: flex;
+}
