@@ -95,42 +95,35 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 200px;
+    padding-top: 3rem;
+    width: 40%;
 }
 
-.email-div > h2{
-    margin-bottom: 20px;
-    word-wrap: break-word;
+.email-div h2{
+    text-align: center;
 }
 
-.email-div input[type='email']{
-    max-width: 275px;
-    width: 100%;
-    padding: 5px;
+.email-div input{
+    width: 50%;
+    padding: 5px 0px;
+    position: relative;
+    margin: auto;
 }
 
-.email-div input[type='submit']{
-    margin: 15px 0;
+.email-div button{
+    margin: auto;
+    margin-top: 1rem;
     color: black;
-    height: 30px;
-    max-width: 150px;
-    background-color: #f1c40f ;
-    border: none;
-}
-
-.btn{
-    padding: 0 20px;
-    font-size: 1em;
     font-weight: 900;
-    text-transform: uppercase;
-    border-radius: 2px;
-    background: transparent;
-    cursor: pointer;
+    font-size: medium;
+    background-color: #f1c40f ;
+    padding: 5px 12px;
+    border: none;
 }
 
 @media (max-width:700px){
     .email-div{
-        margin-top: 150px;
+        margin-top: 120px;
         width: 100%;
     }
 
