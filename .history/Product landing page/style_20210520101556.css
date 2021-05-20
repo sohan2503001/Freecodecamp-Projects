@@ -135,33 +135,3 @@ a{
     }
 
 }
-
-/*MID LOWER SECTION*/
-.container{
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-#features{
-    margin-top: 30px;
-}
-
-.grid{
-    display: flex;
-}
-
-#features .icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 125px;
-    width: 20vw;
-    color: darkorange;
-}
-
-@media (max-width:700px){
-    #features{
-        margin-top: 0px;
-    }
-}

@@ -145,19 +145,7 @@ a{
 
 #features{
     margin-top: 30px;
-}
-
-.grid{
-    display: flex;
-}
-
-#features .icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 125px;
-    width: 20vw;
-    color: darkorange;
+    margin
 }
 
 @media (max-width:700px){
