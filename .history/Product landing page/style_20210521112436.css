@@ -14,8 +14,7 @@ header{
     position: fixed;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    background-color: rgb(228, 226, 224);
+    align-items: center;background-color: #eee;
 }
 
 .logo{
@@ -173,7 +172,6 @@ a{
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 
 #how-it-work > iframe{

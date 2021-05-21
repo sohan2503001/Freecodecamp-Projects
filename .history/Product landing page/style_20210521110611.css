@@ -15,7 +15,6 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(228, 226, 224);
 }
 
 .logo{
@@ -97,7 +96,7 @@ a{
     justify-content: center;
     text-align: center;
     height: 200px;
-    margin-top: 20px;
+    
 }
 
 .email-div > h2{
@@ -138,7 +137,7 @@ a{
 
 }
 
-/*MID LOWER SECTION --> FEATURES*/
+/*MID LOWER SECTION*/
 .container{
     max-width: 1000px;
     width: 100%;
@@ -166,17 +165,4 @@ a{
     #features{
         margin-top: 0px;
     }
-}
-
-/*MID LOWER SECTION -->HOW IT WORKS*/
-#how-it-work{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-#how-it-work > iframe{
-    max-width: 560px;
-    width: 100%;
 }

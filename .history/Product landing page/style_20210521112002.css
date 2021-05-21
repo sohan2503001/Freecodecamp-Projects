@@ -15,7 +15,6 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(228, 226, 224);
 }
 
 .logo{
@@ -171,12 +170,5 @@ a{
 /*MID LOWER SECTION -->HOW IT WORKS*/
 #how-it-work{
     margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-#how-it-work > iframe{
-    max-width: 560px;
-    width: 100%;
+    padding: 5rem;
 }
