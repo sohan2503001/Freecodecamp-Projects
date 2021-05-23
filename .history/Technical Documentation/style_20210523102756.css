@@ -1,0 +1,21 @@
+/*SIDENAV*/
+header{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 10px;
+    color: black;
+}
+
+.sidenav{
+    height: 100%;
+    min-width: 290px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:815px){
+    .sidenav{
+
+    }
+}
