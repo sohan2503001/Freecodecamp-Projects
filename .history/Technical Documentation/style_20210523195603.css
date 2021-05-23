@@ -93,15 +93,13 @@ section li{
 
 code {
     display: block;
-    text-align: left;
-    white-space: pre-line;
     position: relative;
     word-break: normal;
     word-wrap: normal;
     line-height: 1.6;
     background-color: #f7f7f7;
-    padding: 10px 15px 15px 15px;
-    margin: 10px;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
     border-radius: 5px;
 }
 
@@ -117,7 +115,7 @@ code {
     code{
         margin-left: -20px;
         width: 100%;
-        padding: 10px 15px 15px 15px;
+        padding: 15px;
         padding-left: 10px;
         padding-right: 45px;
         min-width: 233px;

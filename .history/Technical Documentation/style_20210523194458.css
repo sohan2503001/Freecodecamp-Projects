@@ -91,17 +91,17 @@ section li{
     margin-top: 10px;
 }
 
-code {
+code{
     display: block;
     text-align: left;
     white-space: pre-line;
     position: relative;
     word-break: normal;
     word-wrap: normal;
-    line-height: 1.6;
-    background-color: #f7f7f7;
-    padding: 10px 15px 15px 15px;
+    line-height: 2;
+    background-color: #dbd8d8;
     margin: 10px;
+    padding: 15px;
     border-radius: 5px;
 }
 
@@ -111,15 +111,8 @@ code {
         margin-left: 0px;
         margin-top: 270px;
     }
-}
 
-@media only screen and (max-width:815px){
     code{
-        margin-left: -20px;
-        width: 100%;
-        padding: 10px 15px 15px 15px;
-        padding-left: 10px;
-        padding-right: 45px;
-        min-width: 233px;
+        
     }
 }
