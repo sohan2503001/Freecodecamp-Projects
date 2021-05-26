@@ -65,9 +65,9 @@ font-size: 1em;
 text-align: right;
 }
 #quote-box .buttons {
-width: 450px;
-margin: auto;
-display: block;
+  width: 450px;
+  margin: auto;
+  display: block;
 }
 #quote-box .buttons .button {
 height: 38px;
